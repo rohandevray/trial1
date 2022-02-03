@@ -1,0 +1,114 @@
+/* option button */
+.option{
+    cursor: pointer;
+}
+.option:hover{
+    background-color: #00bfa6;
+}
+
+
+.existing{
+    height: 100vh;
+    width: 100%;
+    
+}
+.main-part{
+    display: flex;
+    justify-content: space-around;
+}
+
+.existing h1{
+    font-size: 1.7rem;
+}
+.lists{
+    width: 60%;
+    overflow: scroll;
+}
+.lists div{
+    background-color: lightcoral;
+    margin: 5%;
+    width: 90%;
+    height: 15%;
+}
+
+.cookie-box{
+    width: 350px;
+    position: fixed;
+    bottom: 100px;
+    left: -400px;
+    z-index: 1000;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0,0,0.2);
+    text-align: center;
+    padding: 30px;
+    transition: all 0.3s linear;
+
+}
+
+.cookie-box img{
+   height: 110px;
+   
+}
+
+/* creating our animation effects */
+
+.cookie-box h3{
+    color: #333;
+    font-size: 23px;
+    padding: 5px 0;
+}
+
+.cookie-box p{
+    color: #666;
+    font-size: 13px;
+    padding: 5px 0;
+    line-height: 1.8;
+}
+.active{
+    left: 20px;
+}
+.cookie-box .accept{
+    background: #FBB45F;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+   text-decoration: none;
+
+}
+
+.cookie-box .accept:hover{
+    letter-spacing: 1px;
+    opacity: 0.8;
+   
+
+}
+.cookie-box .setting{
+    color: #999;
+    text-decoration: none;
+}
+.cookie-box .setting:hover{
+    color: #FBB45F;
+}
+
+.close-btn{
+    position: absolute;
+    top: -2px; 
+    right: 12px;
+    font-size: 40px;
+    color: #999;
+    cursor: pointer;
+}
+
+.options{
+    background-color: #FBB45F;
+}
+
+.dropdown{
+    background-color: aqua;
+    display: block;
+    width: 10rem;
+    height: 10rem;
+}
